@@ -22,7 +22,10 @@ namespace Domashka_2._0
                 Fish riba1 = new Fish("камбала", new DateTime(2010, 10, 25));
                 Console.WriteLine(riba1 .Age);
                 ((ISwimming)riba1 ).Swimm();
+                Gym gym = new Gym();
+                gym.AddAmimal(sobaka1, babochka1, ptica1, riba1);
 
+                gym.LetsMove();
 
 
             }
